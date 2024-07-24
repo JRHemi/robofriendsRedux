@@ -7,9 +7,9 @@ import thunkMiddleware from 'redux-thunk';
 import { createLogger } from 'redux-logger';
 import 'tachyons';
 
-
 import App from './containers/App';
-import registerServiceWorker from './registerServiceWorker';
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
+// import reportWebVitals from './reportWebVitals';
 import { requestRobots, searchRobots } from './reducers'
 
 import './index.css';
@@ -27,11 +27,9 @@ root.render(
 </Provider>
 );
 
-// ReactDOM.render(
-//   <Provider store={store}>
-//     <App/>
-//   </Provider>,
-//   document.getElementById('root')
-// );
-registerServiceWorker();
+serviceWorkerRegistration.register();
 
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// reportWebVitals();
