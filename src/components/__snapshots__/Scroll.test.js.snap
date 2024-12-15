@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expects to render Scroll and Child component 1`] = `
+<div
+  style={
+    Object {
+      "border": "5px solid black",
+      "height": "800px",
+      "overflow": "scroll",
+    }
+  }
+>
+  <MockChild />
+</div>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainPage Component displays loading screen 1`] = `
+<div
+  className="tc"
+>
+  <Header />
+  <SearchBox />
+  <Scroll>
+    <h1>
+      Loading
+    </h1>
+  </Scroll>
+</div>
+`;
+
+exports[`MainPage Component expects to render MainPage component 1`] = `
+<div
+  className="tc"
+>
+  <Header />
+  <SearchBox />
+  <Scroll>
+    <ErrorBoundary>
+      <CardList
+        robots={Array []}
+      />
+    </ErrorBoundary>
+  </Scroll>
+</div>
+`;
