@@ -2,14 +2,16 @@
   "name": "robofriends",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jrhemi.github.io/robofriends-pwa",
+  "homepage": "https://jrhemi.github.io/robofriendsRedux",
   "jest": {
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]
   },
   "dependencies": {
+    "gh": "^2.8.9",
     "node-fetch": "^3.3.2",
+    "pages": "^0.0.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.2",
