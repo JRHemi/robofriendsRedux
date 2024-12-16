@@ -1,0 +1,30 @@
+{
+  "short_name": "Robofriends",
+  "name": "Robofriends App",
+  "id": "?homescreen=1",
+  "description": "Application that will help you manage all your Robofriends.",
+  "launch_handler": {
+    "client_mode": "auto"
+  },
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+  },
+  {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+  }
+  ],
+  "start_url": "./index.html",
+  "theme_color": "#333333",
+  "background_color": "#333333",
+  "display": "standalone"
+}
